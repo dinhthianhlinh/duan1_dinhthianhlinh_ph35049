@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#15223B"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/admin"
+            android:background="@drawable/boanh"
+            android:layout_margin="20dp"
+            android:src="@drawable/anhadmin"/>
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="#68671C"
+            android:gravity="center"
+            android:text="ĐINH THỊ ÁNH LINH"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
