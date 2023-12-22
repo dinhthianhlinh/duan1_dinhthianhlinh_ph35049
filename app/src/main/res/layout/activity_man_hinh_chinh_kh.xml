@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#15223B"
-    android:id="@+id/drawer"
-    tools:context=".admin.ManHinhChinhAdminActivity">
+    android:id="@+id/drawerkh"
+    tools:context=".khachhang.ManHinhChinhKH">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,21 +19,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:id="@+id/toolbaradmin"/>
+            android:id="@+id/toolbarkh"/>
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/fragmentadmin"/>
+            android:id="@+id/fragmentkh"/>
     </LinearLayout>
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:id="@+id/navadimn"
-
-        app:menu="@menu/menu"
-        app:headerLayout="@layout/hender"/>
-
-
-
+        android:id="@+id/navakh"
+        app:menu="@menu/menukh"
+        app:headerLayout="@layout/henderkh"/>
 </androidx.drawerlayout.widget.DrawerLayout>

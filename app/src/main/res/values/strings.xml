@@ -2,6 +2,9 @@
     <string name="app_name">DuAn1_DINHTHIANHLINH_PH35049</string>
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="openkh">openkh</string>
+    <string name="closekh">closekh</string>
+    <string name="id">id:</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

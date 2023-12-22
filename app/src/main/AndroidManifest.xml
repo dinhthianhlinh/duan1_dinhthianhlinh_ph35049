@@ -16,6 +16,9 @@
             android:name=".admin.ManHinhChinhAdminActivity"
             android:exported="false" />
         <activity
+            android:name=".khachhang.ManHinhChinhKH"
+            android:exported="false" />
+        <activity
             android:name=".chung.LogoutActivity"
             android:exported="false" />
         <activity
